@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false"
+    android:layout_centerVertical="false"
+    android:gravity="center"
+    tools:context=".Alarm_on">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="275dp"
+        android:layout_height="62dp"
+        android:background="#C92BE8E8"
+        android:text="ALARM IS SET ON"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <Button
+        android:id="@+id/off"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_centerVertical="false"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        app:layout_constraintVertical_bias="0.298"
+        tools:layout_editor_absoluteX="146dp" />
+
+</RelativeLayout>
